@@ -2071,7 +2071,8 @@ s
   text-transform: uppercase;
   color:white;
   font-family: "Raleway", sans-serif;
-  font-weight:800;s
+  font-weight:800;
+
 }
 
 .sprout {
@@ -2270,13 +2271,13 @@ s
       }
 
        .overlay-h4 {
-         font-size: 35px;
+         font-size: 19px;
          padding-right:20px;
          padding-left:20px;
        }
 
       .text {
-        font-size:26px;
+        font-size:14px;
       }
 
       .popup-inner {
@@ -2306,9 +2307,9 @@ s
 
    .text {
      font-size:14px;
-       padding-left: 8%;
-       padding-right: 8%;
-       font-weight:bold;
+    padding-left: 8%;
+    padding-right: 8%;
+    font-weight:bold;
 
    } 
 
