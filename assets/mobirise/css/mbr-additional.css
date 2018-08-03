@@ -1770,7 +1770,6 @@ body {
   background: black;
 }
 .game-section {
-  padding-top: 90px;
   padding-bottom: 75px;
   background-color: #efefef;
 }
@@ -2025,7 +2024,6 @@ s
 
 .text {
   color:white;
-  font-size:18px;
   /* position:absolute;
   top:50%;
   left:50%;
@@ -2033,9 +2031,6 @@ s
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%); */
   text-align: center;
- 
-  padding-left: 15%;
-  padding-right: 15%;
   letter-spacing: 1px;
   line-height: 1.5;
   
@@ -2044,8 +2039,6 @@ s
 
 
 .plant-container {
-  padding-right:50px;
-  padding-left: 50px;
   padding-top:25px;
 }
 
@@ -2139,33 +2132,150 @@ s
 }
 
 
-.image-block {
 
-}
 
 
 /* MEDIA QUERIES: */
 
 /* Smartphone:*/
-@media (min-width: 320px) and (max-width: 767px) {
+@media (min-width: 320px) {
+   .image-block {
+     margin-top: 24%;
+   }
 
+      .text {
+        font-size: 12px;
+        padding-left: 10%;
+        padding-right: 10%;
+      }
+
+      .overlay-h4 {
+        font-size:15px;
+        padding-left:10px;
+        padding-right:10px;
+      }
+
+      .game-section {
+          padding-top: 20px;
+      }
+
+      .plant-container {
+          padding-right:25px;
+          padding-left:25px;
+      }
+
+}
+
+@media (min-width: 360px) {
+  .image-block {
+    margin-top: 19%;
+  }
+
+    .text {
+      font-size: 14px;
+    }
+
+  .overlay-h4 {
+    font-size: 18px;
+  }
+}
+
+@media (min-width: 411px) {
+  .text {
+    font-size: 16px;
+  }
+  .overlay-h4 {
+    font-size: 19px;
+  }
 }
 
 /* iPads:*/
 @media (min-width: 768px) {
+   .image-block {
+     margin-top: 10%;
+   }
+
+    .game-section {
+      padding-top: 90px;
+    }
+
+      .plant-container {
+        padding-right: 100px;
+        padding-left: 100px;
+      }
+
+       .overlay-h4 {
+         font-size: 35px;
+         padding-right:20px;
+         padding-left:20px;
+       }
+
+      .text {
+        font-size:26px;
+      }
+
+
+  
+
+}
+
+/* iPad Pro */
+@media (min-width: 1024px) {
+  .image-block {
+    margin-top: 7%;
+  }
+
+  .overlay-h4 {
+    font-size:19px;
+  }
+
+   .text {
+     font-size:15px;
+       padding-left: 10%;
+       padding-right: 10%;
+       font-weight:bold;
+
+   } 
+
+   .game-section {
+     padding-top:43px;
+   }
+
+      .plant-container {
+        padding-right: 50px;
+        padding-left: 50px;
+      }
+
 
 }
 
 
 /* Desktop/Laptop:*/ 
 @media (min-width: 1224px) {
+  .image-block {
+    margin-top:6%;
+  }
+
+   .text {
+     font-size: 18px;
+       padding-left: 15%;
+       padding-right: 15%;
+   }
 
 }
 
 /* Large Screens */
-@media (min-width: 1824px) {}
+@media (min-width: 1824px) {
+   .image-block {
+     margin-top: 4%;
+   }
+
+}
 
 /* Extra Large */
 @media (min-width: 2560px) {
+   .image-block {
+     margin-top: 2%;
+   }
 
 }
