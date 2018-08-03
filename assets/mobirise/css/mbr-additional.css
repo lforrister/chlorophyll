@@ -2121,6 +2121,7 @@ s
    margin-top:25px;
    margin-bottom:11px;
    border-radius:5px;
+   width:80%;
 
   
 }
@@ -2135,6 +2136,9 @@ s
   padding-top:20px; 
 }
 
+#sprout-weird {
+  padding-bottom: 9%;
+}
 
 
 
@@ -2213,6 +2217,41 @@ s
    .security {
      width: 35%;
    }
+
+   .popup-inner {
+     width:45%;
+   }
+
+   .plant-container {
+     padding-right:50px;
+     padding-left:50px;
+
+   }
+
+   .image-block {
+     margin-top:18%;
+   }
+
+}
+
+
+@media (min-width: 411px) {
+
+  .image-block {
+    margin-top: 13%;
+  }
+}
+
+@media (min-width: 411px) {
+  .image-block {
+    margin-top: 15%;
+  }
+}
+
+@media (min-width: 515px) {
+  .image-block {
+    margin-top: 10%;
+  }
 }
 
 /* iPads:*/
@@ -2325,6 +2364,12 @@ s
 
 }
 
+@media (min-width: 1400px) {
+  .text {
+    font-size:18px;
+  }
+}
+
 /* Large Screens */
 @media (min-width: 1824px) {
    .image-block {
@@ -2338,6 +2383,10 @@ s
      .security {
        width: 35%;
      }
+
+      .text {
+        font-size: 20px;
+      }
 
 }
 

@@ -30,6 +30,30 @@ $("#learn-more-3").click(function () {
 });
 
 
+// NAV BAR
+// LOG IN 
+
+$("#nav-login").click(function () {
+
+    $("#login-module-nav").show();
+});
+
+$("#login-3").click(function() {
+    $("#login-module-nav").hide();
+});
+
+// SIGN UP
+$("#sign-up").click(function () {
+
+    $("#signup-module").show();
+});
+
+
+$("#signup-btn").click(function(){
+    $("#signup-module").hide();
+});
+
+
 // DOWNLOAD POP UP
 
 $(".download").click(function() {
@@ -78,3 +102,10 @@ $("#checkout-btn").click(function () {
      $("#checkout").hide();
      $("#confirmation").show();
 });
+
+
+// KEEP EXPLORING
+$("#explore").click(function () {
+    $(".popupwin").hide();
+});
+

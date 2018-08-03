@@ -51,13 +51,13 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
 
             <div class="navbar-buttons mbr-section-btn">
-                <a class="btn btn-sm btn-primary display-4" href="tel:+1-234-567-8901">
+                <a class="btn btn-sm btn-primary display-4" id="nav-login">
                    
                    LOG IN
                 </a>
             </div>
             <div class="navbar-buttons mbr-section-btn">
-                <a class="btn btn-sm btn-primary display-4" href="tel:+1-234-567-8901">
+                <a class="btn btn-sm btn-primary display-4" id="sign-up">
             
                     Sign Up
                 </a>
@@ -85,6 +85,29 @@
 
 <section class="features8 game-section game-cards" id="features8-3">
 
+    <!-- <div class="row">
+        <div class="awesome-project-1 fix">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <div class="awesome-menu ">
+                    <ul class="project-menu">
+                        <li>
+                            <a href="#" class="active" data-filter="*">All</a>
+                        </li>
+                        <li>
+                            <a href="#" data-filter=".development">Development</a>
+                        </li>
+                        <li>
+                            <a href="#" data-filter=".design">Design</a>
+                        </li>
+                        <li>
+                            <a href="#" data-filter=".photo">Photoshop</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div> -->
+
 
 
 
@@ -92,7 +115,7 @@
     <div class="container-fluid plant-container">
         <div class="media-container-row plant-cards" >
 
-            <div class="card  col-md-12 col-md-6 col-lg-4 first-card">
+            <div class="card  col-md-12 col-md-6 col-lg-4 first-card development">
                 <div class="container-test">
                     <div class="plant-header">
                         <h4> Fightin' <br> Ferns </h4>
@@ -352,7 +375,7 @@
         <div class="align-center">
 
             <div class="sprout">
-                <img src="assets/images/sprout.png" style="padding-bottom:9%;">
+                <img src="assets/images/sprout.png" style="padding-bottom:5%; border-bottom: soild white 1px;">
             </div>
         
             <div class="mbr-section-btn text-center" style="padding-top:11% !important;">
@@ -371,7 +394,7 @@
 </div>
 
 
-<!-- LOG IN -->
+<!-- LOG IN (MAIN) -->
 <div class="popupwin" data-popup="popup-1" id="login-module">
     <div class="popup-inner">
         <div class="align-center">
@@ -402,13 +425,80 @@
     </div>
 </div>
 
+<!-- LOG IN (NAV) -->
+<div class="popupwin" data-popup="popup-1" id="login-module-nav">
+    <div class="popup-inner">
+        <div class="align-center">
+
+            <div class="sprout">
+                <img src="assets/images/sprout.png" style="padding-bottom:5%; border-bottom: soild white 1px;">
+            </div>
+
+            <!-- INSERT FILDS HERE-->
+
+            <form class="module-forms">
+
+                <input type="text" name="firstname" placeholder="username" class="form-field">
+                <br>
+
+
+                <input type="password" name="lastname" placeholder="password" class="form-field">
+            </form>
+
+            <!-- Button-->
+            <div class="mbr-section-btn text-center">
+
+                <a class="btn btn-secondary display-4" id="login-3" style="width:213px; margin-top:10%;">
+                    LOG IN
+                </a>
+            </div>
+        </div>
+        <a class="popup-close" data-popup-close="popup-1" href="#">x</a>
+    </div>
+</div>
+
+
+<!-- SIGN UP -->
+<div class="popupwin" data-popup="popup-1" id="signup-module">
+    <div class="popup-inner">
+        <div class="align-center">
+
+            <div class="sprout">
+                <img src="assets/images/sprout.png" style="padding-bottom:5%; border-bottom: soild white 1px;">
+            </div>
+
+            <!-- INSERT FILDS HERE-->
+
+            <form class="module-forms">
+
+                <input type="text" name="firstname" placeholder="username" class="form-field">
+                <br>
+
+
+                <input type="password" name="lastname" placeholder="password" class="form-field"> <br>
+
+                <input type="password" name="lastname" placeholder="repeat password" class="form-field">
+            </form>
+
+            <!-- Button-->
+            <div class="mbr-section-btn text-center">
+
+                <a class="btn btn-secondary display-4" id="signup-btn" style="width:213px; margin-top:10%;">
+                    SIGN UP
+                </a>
+            </div>
+        </div>
+        <a class="popup-close" data-popup-close="popup-1" href="#">x</a>
+    </div>
+</div>
+
 <!-- Cart Summary -->
 <div class="popupwin" data-popup="popup-1" id="cart-summary">
     <div class="popup-inner">
         <div class="align-center">
 
             <div class="sprout">
-                <img src="assets/images/sprout.png">
+                <img src="assets/images/sprout.png" style="padding-bottom:3%; border-bottom: soild white 1px;">
             </div>
 
             <!-- INSERT FILDS HERE-->
@@ -483,10 +573,10 @@
             
                 <input type="text" name="firstname" placeholder="name on card" class="form-fieldcc"> <br>
                 <input type="password" name="lastname" placeholder="credit card number" class="form-fieldcc"><br>
-                <span display="inline-flex">
-                <input type="password" name="lastname" placeholder="cvc" class="form-fieldcc security" style="margin-right:5px;">
-                <input type="password" name="lastname" placeholder="exp" class="form-fieldcc security">
-                </span>
+                
+                <input type="text" name="lastname" placeholder="cvc" class="form-fieldcc"> <br>
+                <input type="text" name="lastname" placeholder="exp" class="form-fieldcc">
+               
             </form>
 
 
@@ -507,14 +597,14 @@
         <div class="align-center">
 
             <div class="sprout">
-                <img src="assets/images/sprout.png" style="padding-bottom:5%; border-bottom: soild white 1px;">
+                <img src="assets/images/sprout.png" style="padding-bottom:3%; border-bottom: soild white 1px;">
             </div>
 
             <p class="text conf-text"> Thank you for your purchase! Your download should begin automatically. </p> 
 
             <!-- INSERT FILDS HERE-->
             <div class="mbr-section-btn text-center">
-                <a class="btn btn-secondary display-4"">
+                <a class="btn btn-secondary display-4" id="explore">
                     Keep Exploring
                 </a>
             </div>
@@ -558,7 +648,7 @@
         <div class="media-container-row align-center mbr-white">
             <div class="col-12">
                 <p class="mbr-text mb-0 mbr-fonts-style display-7">
-                    © Copyright 2017 Mobirise - All Rights Reserved
+                    © Copyright Clorophyll, Inc
                 </p>
             </div>
         </div>
