@@ -2012,7 +2012,7 @@ s
   width:100%;
   opacity:0;
   transition: .5s ease;
-  background: linear-gradient(rgba(29,151,108,0.8), rgba(147,249,185,0.8));
+  background: linear-gradient(rgba(29,151,108,0.85), rgba(147,249,185,0.85));
 
  
 }
@@ -2257,7 +2257,7 @@ s
 /* iPads:*/
 @media (min-width: 768px) {
    .image-block {
-     margin-top: 10%;
+     margin-top: 6%;
    }
 
     .game-section {
@@ -2291,6 +2291,8 @@ s
   
 
 }
+
+@media (min-width:)
 
 /* iPad Pro */
 @media (min-width: 1024px) {
@@ -2373,7 +2375,7 @@ s
 /* Large Screens */
 @media (min-width: 1824px) {
    .image-block {
-     margin-top: 4%;
+     margin-top: 2%;
    }
 
    .game-section {
@@ -2393,7 +2395,7 @@ s
 /* Extra Large */
 @media (min-width: 2560px) {
    .image-block {
-     margin-top: 4%;
+     margin-top: 0%;
    }
 
 }
